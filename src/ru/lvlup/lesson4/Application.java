@@ -9,12 +9,13 @@ public class Application {
 
         System.out.println(figure.getName());
         System.out.println(figure.getName().toUpperCase());
+        System.out.println(figure.getOrder());
 
         Shape shape = new Shape("Форма2");
         System.out.println(shape.getName().toUpperCase());
 
         Shape shapeWithOrder = new Shape(4,"Имя");
-        System.out.println(shapeWithOrder.order + " " + shapeWithOrder.getName());
+        System.out.println(shapeWithOrder.getOrder() + " " + shapeWithOrder.getName());
 
     }
 }
