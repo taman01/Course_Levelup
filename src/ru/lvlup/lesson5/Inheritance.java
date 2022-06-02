@@ -32,6 +32,7 @@ public class Inheritance {
         ShapeService shapeService = new ShapeService();
         shapeService.printShapeSquare(shape);
         shapeService.printShapeSquare(rect);
+        shapeService.printShapeSquare(triangle);
 
 
     }
