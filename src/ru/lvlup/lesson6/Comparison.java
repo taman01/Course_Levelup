@@ -25,6 +25,8 @@ public class Comparison {
         // u3.equals(u2) ->
         System.out.println("Comparison: " + objectComparison);
 
+
+
         // University u5 = null;
         // u2.equals(null);
         // u2.equals(u5);
